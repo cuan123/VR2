@@ -19,14 +19,15 @@
   font-family: ch2;
   src: url(../font/ch2.ttf);
 }
-body {
-  background: url("../images/bg_1.png");
-  z-index: 1;
-  /* max-width: 1920px;*/
-  background-size: 100% 100%;
-  /* 水平和垂直方向填充100% */
-  background-repeat: no-repeat;
-}
+  body,html {
+    background: url("../images/bg_1.png");
+    z-index: 1;
+    /* max-width: 1920px;*/
+    background-size: 100% 100%;
+    background-size: cover;
+    /* 水平和垂直方向填充100% */
+    background-repeat: no-repeat;
+  }
 header {
   height: 0.75rem;
   background: url("../images/header1.jpg") no-repeat;
